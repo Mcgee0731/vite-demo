@@ -2,12 +2,11 @@
   <div class="container max-w-3xl mx-auto mt-40">
     <div class="h-60 mb-8">
       <div class="w-52 h-52 mx-auto mb-4"><vitecamp class="w-52 h-52"></vitecamp></div>
-      <el-button class="bg-[#012]">你好</el-button>
     </div>
     <div class="text-center text-md">
-      <h1 class="font-serif font-bold text-4xl mb-8">{{ t('hello') }} , {{ t('welcome to') }} Vitecamp</h1>
+      <h1 class="font-serif font-bold text-4xl mb-8">{{ t('hello') }} , {{ t('welcome to') }} ViteDemo</h1>
       <p class="mb-10">
-        <strong>Vitecamp</strong>
+        <strong>ViteDemo</strong>
         {{ t('includes features') }}
       </p>
       <p class="mb-10">
@@ -25,12 +24,6 @@
 import vitecamp from '@/assets/svg/vitecamp.svg?component';
 
 const { t } = useI18n();
-ElMessage.info({ message: 'welcome', duration: 1 });
-ElNotification({
-  title: 'Issue',
-  message: 'If you encounter problems in using the template, please raise them in the issue',
-  duration: 0,
-});
 const featureList = [
   {
     name: 'Vite2',
