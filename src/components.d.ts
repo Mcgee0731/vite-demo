@@ -4,13 +4,11 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    ElButton: typeof import('element-plus/es')['ElButton']
     ElConfigProvider: typeof import('element-plus/es')['ElConfigProvider']
     ElTooltip: typeof import('element-plus/es')['ElTooltip']
     EnProcess: typeof import('./components/EnProcess.md')['default']
     IAkarIconsGithubFill: typeof import('~icons/akar-icons/github-fill')['default']
     ILaLanguage: typeof import('~icons/la/language')['default']
-    IMdiContentDuplicate: typeof import('~icons/mdi/content-duplicate')['default']
     IMdiHomeSearchOutline: typeof import('~icons/mdi/home-search-outline')['default']
     IPhCloudMoonBold: typeof import('~icons/ph/cloud-moon-bold')['default']
     IPhSunHorizonBold: typeof import('~icons/ph/sun-horizon-bold')['default']

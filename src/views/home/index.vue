@@ -1,7 +1,7 @@
 <template>
   <div class="container max-w-3xl mx-auto mt-40">
     <div class="h-60 mb-8">
-      <div class="w-52 h-52 mx-auto mb-4"><vitecamp class="w-52 h-52"></vitecamp></div>
+      <div class="w-52 h-52 mx-auto mb-4"><vitelun class="w-52 h-52"></vitelun></div>
     </div>
     <div class="text-center text-md">
       <h1 class="font-serif font-bold text-4xl mb-8">{{ t('hello') }} , {{ t('welcome to') }} ViteDemo</h1>
@@ -21,7 +21,7 @@
 </template>
 
 <script setup lang="ts">
-import vitecamp from '@/assets/svg/vitecamp.svg?component';
+import vitelun from '@/assets/svg/lun.svg?component';
 
 const { t } = useI18n();
 const featureList = [
